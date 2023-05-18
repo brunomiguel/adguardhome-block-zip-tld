@@ -1,0 +1,13 @@
+[Adblock Plus 2.0]
+! Title: Block zip tld
+! Expires: 3 hours (update frequency)
+! GitHub issues: https://github.com/brunomiguel/adguardhome-block-zip-tld/issues
+! Homepage: https://github.com/brunomiguel/adguardhome-block-zip-tld
+
+! -------------------------------------------------------------------------------------------------------- !
+! Block the new zip tld                                                                                    !
+! Why? See links below ↓                                                                                   !
+! https://medium.com/@bobbyrsec/the-dangers-of-googles-zip-tld-5e1e675e59a5                                !
+! https://www.bleepingcomputer.com/news/security/new-zip-domains-spark-debate-among-cybersecurity-experts/ !
+! -------------------------------------------------------------------------------------------------------- !
+/.zip/$important
