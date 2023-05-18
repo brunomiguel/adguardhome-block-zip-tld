@@ -10,10 +10,11 @@
 ! https://medium.com/@bobbyrsec/the-dangers-of-googles-zip-tld-5e1e675e59a5                                !
 ! https://www.bleepingcomputer.com/news/security/new-zip-domains-spark-debate-among-cybersecurity-experts/ !
 ! -------------------------------------------------------------------------------------------------------- !
-/*.zip/$important
-
+/http://*.zip/$important
+/https://*.zip/$important
 ! -------------------------------------------------------------------------------------------------------- !
 ! Block the new mov tld                                                                                    !
 ! Why? For the same reasons as the zip tld                                                                 !
 ! -------------------------------------------------------------------------------------------------------- !
-/*.mov/$important
+/http://*.mov/$important
+/https://*.mov/$important
