@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: Block zip tld
+! Title: Block zip and mov tlds
 ! Expires: 3 hours (update frequency)
 ! GitHub issues: https://github.com/brunomiguel/adguardhome-block-zip-tld/issues
 ! Homepage: https://github.com/brunomiguel/adguardhome-block-zip-tld
@@ -11,3 +11,9 @@
 ! https://www.bleepingcomputer.com/news/security/new-zip-domains-spark-debate-among-cybersecurity-experts/ !
 ! -------------------------------------------------------------------------------------------------------- !
 /.zip/$important
+
+! -------------------------------------------------------------------------------------------------------- !
+! Block the new mov tld                                                                                    !
+! Why? For the same reasons as the zip tld                                                                 !
+! -------------------------------------------------------------------------------------------------------- !
+/.mov/$important
